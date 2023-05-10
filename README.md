@@ -13,9 +13,9 @@
 ```
 https://github.com/Lucas4fs/mysql-bd-relacional/blob/main/ScriptIdentado.sql
 ``` 
-<h2>
+<h3>
     :pushpin: Intuito do Projeto
-</h2>
+</h3>
 
 <p>
     Criar um Banco de Dados Relacional do Zero.<br>
