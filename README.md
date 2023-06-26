@@ -1381,9 +1381,9 @@ FROM/*DENTRO DE*/
 </h3>
 
 ```sql
-+----+------------+---------+------------+----------------+------+--------+----+------------------+----------------+-----------------------------+------------------+-------------------+
-| ID | ID_CLIENTE |	   NOME_CLIENTE      |       CPF      | SEXO |  PAIS  | UF |      CIDADE      |     BAIRRO     |     ENDERECO                |     TEL_RES      |      TEL_CEL      |
-+----+------------+---------+------------+----------------+------+--------+----+------------------+----------------+-----------------------------+------------------+-------------------+
++----+------------+----------------------+----------------+------+--------+----+------------------+----------------+-----------------------------+------------------+-------------------+
+| ID | ID_CLIENTE |    NOME_CLIENTE      |       CPF      | SEXO |  PAIS  | UF |      CIDADE      |     BAIRRO     |     ENDERECO                |     TEL_RES      |      TEL_CEL      |
++----+------------+----------------------+----------------+------+--------+----+------------------+----------------+-----------------------------+------------------+-------------------+
 | 1  |      1     | CAIO ALMEIDA MELO    | 123.965.445-41 |   M  | BRASIL | GO |    ANAPOLIS      | ANAPOLIM       | RUA 12 QUADRA 2             | +55(62)3293-4418 | +55(62)99714-4574 |
 | 2  |      2     | LUCAS ALFREDO MELO   | 456.965.445-42 |   M  | BRASIL | GO |    ANAPOLIS      | ANAPOLIM       | RUA 12 QUADRA 3             | +55(62)3697-4477 | +55(62)99999-4574 |
 | 3  |      3     | MARIA JUSSARA PINTO  | 789.965.445-43 |   F  | BRASIL | MA |    CAJARI        | CAJADOS        | RUA 5 QUADRA 2              | +55(62)3737-4778 | +55(62)99778-7884 |
@@ -1429,7 +1429,6 @@ FROM/*DENTRO DE*/
 | 9  | 9       | LG K61            | LG         | 1249.00 | 741256353535 |
 | 10 | 10      | LG K52            | LG         | 989.90  | 745896565652 |       
 +----+---------+-------------------+------------+---------+--------------+
-
 ```
 
 <h3>
@@ -1438,7 +1437,6 @@ FROM/*DENTRO DE*/
 
 
 ```sql
-
 +----+-----------+------------------+---------------+----------------+
 | ID | ID_VENDAS | ID_VENDA_CLIENTE | ID_VENDA_PROD | VALOR_DA_VENDA |
 +----+-----------+------------------+---------------+----------------+
@@ -1456,8 +1454,7 @@ FROM/*DENTRO DE*/
 | 12 | 12        | 10               | 2             | 2145           | 
 | 13 | 13        | 10               | 4             | 603            | 
 +----+-----------+------------------+---------------+----------------+
-``` 
-
+```
 
 <h3>
 	📌Observações Importantes Antes de Iniciar os Comandos de DELETE(DELETAR).
@@ -1972,7 +1969,6 @@ FROM/*DENTRO DE*/
 +--------------------+--------------------------+---------------------+---------------------+--------------+----------+-----------+---------------+------------+
 ```
 
-
 <h3>
     ⛏️Exportando a VIEW(VISUALIZAÇÃO) CALC_REL_VENDAS que Está Dentro do Banco EMPRESA Para Dentro de uma Pasta, o Arquivo Fica no Formato .csv, Dentro do Script Foi Passado Alguns Parâmetros Para que ao Abrir o Arquivo Dentro de Uma Planilha o Mesmo Já Venha Formatado
 </h3>
@@ -2247,7 +2243,6 @@ FROM/*DENTRO DE*/
 +----------+----+------------------------+
 ```
 
-
 <h3>
     ⛏️Exportando a VIEW(VISUALIZAÇÃO) QTD_CLIENTE_POR_REGIAO que Está Dentro do Banco EMPRESA Para Dentro de uma Pasta, o Arquivo Fica no Formato .csv, Dentro do Script Foi Passado Alguns Parâmetros Para que ao Abrir o Arquivo Dentro de Uma Planilha o Mesmo Já Venha Formatado
 </h3>
@@ -2279,6 +2274,7 @@ FIELDS TERMINATED BY ';'/*CAMPOS TERMINADOS POR*/
 ENCLOSED BY '"'/*CERCADO POR*/
 LINES TERMINATED BY '\n';/*LINHAS TERMINADAS POR*/
 ```
+
 <h3>
     ⛏️Segue o Print do Arquivo .csv Aberto Dentro do Excel
 </h3>
