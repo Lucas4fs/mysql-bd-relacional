@@ -1861,17 +1861,17 @@ FROM/*DENTRO DE*/
 </h3>
 
 ```sql
-+------------+--------------------------+-----------------+----------------+
-| ID _VENDAS | NOME_CLIENTE             | NOME_PROD       | VALOR_DA_VENDA | 
-+------------+--------------------------+-----------------+----------------+
-| 1          | JULIA BONITA             |POCCO X3 PRO     | 2              | 
-| 1          | ROSA SANTOS SOARES       |UP PLAY          | 2              | 
-| 1          | LARISSA PAULA GUEDES     |HUAWEI X8 SILVER | 2              | 
-| 1          | PRISCILA DA COSTA NUNES  |LG K61           | 2              | 
-| 1          | PRISCILA DA COSTA NUNES  |POCCO X3 PRO     | 2              | 
-| 1          | PRISCILA DA COSTA NUNES  |POCCO X4 PRO     | 2              | 
-| 1          | PRISCILA DA COSTA NUNES  |S22 ULTRA        | 2              | 
-+------------+--------------------------+-----------------+----------------+
++------------+--------------------------+------------------+----------------+
+| ID _VENDAS | NOME_CLIENTE             | NOME_PROD        | VALOR_DA_VENDA | 
++------------+--------------------------+------------------+----------------+
+| 1          | JULIA BONITA             | POCCO X3 PRO     | 2              | 
+| 1          | ROSA SANTOS SOARES       | UP PLAY          | 2              | 
+| 1          | LARISSA PAULA GUEDES     | HUAWEI X8 SILVER | 2              | 
+| 1          | PRISCILA DA COSTA NUNES  | LG K61           | 2              | 
+| 1          | PRISCILA DA COSTA NUNES  | POCCO X3 PRO     | 2              | 
+| 1          | PRISCILA DA COSTA NUNES  | POCCO X4 PRO     | 2              | 
+| 1          | PRISCILA DA COSTA NUNES  | S22 ULTRA        | 2              | 
++------------+--------------------------+------------------+----------------+
 ```
 
 <h3>
@@ -2331,18 +2331,18 @@ FROM/*DENTRO DE*/
 </h3>
 
 ```sql
-+---------+-------------------+------------------+---------+--------------+
-| ID_PROD | NOME_PROD         | MARCA            | PRECO   | COD_BARRAS   |
-+---------+-------------------+------------------+---------+--------------+
-|1        | POCCO X3 PRO      | XIAOMI           | 1400.00 | 784512454547 |
-|2        | POCCO X4 PRO      | XIAOMI EVOLUTION | 1600.00 | 123123456784 |
-|4        | S22 ULTRA         | POSITIVO         | 602.99  | 47895656523  |
-|6        | C20               | NOKIA            | 573.00  | 789444475454 |
-|7        | UP PLAY           | MULTILASER       | 94.00   | 741526487777 |
-|8        | HUAWEI X8 SILVER  | HONOR            | 1330.12 | 321452145784 |
-|9        | LG K61            | LG               | 1249.00 | 741256353535 |
-|10       | LG K52            | LG               | 989.90  | 745896565652 |
-+---------+-------------------+------------------+---------+--------------+
++----------+-------------------+------------------+---------+--------------+
+| ID_PROD  | NOME_PROD         | MARCA            | PRECO   | COD_BARRAS   |
++----------+-------------------+------------------+---------+--------------+
+| 1        | POCCO X3 PRO      | XIAOMI           | 1400.00 | 784512454547 |
+| 2        | POCCO X4 PRO      | XIAOMI EVOLUTION | 1600.00 | 123123456784 |
+| 4        | S22 ULTRA         | POSITIVO         | 602.99  | 47895656523  |
+| 6        | C20               | NOKIA            | 573.00  | 789444475454 |
+| 7        | UP PLAY           | MULTILASER       | 94.00   | 741526487777 |
+| 8        | HUAWEI X8 SILVER  | HONOR            | 1330.12 | 321452145784 |
+| 9        | LG K61            | LG               | 1249.00 | 741256353535 |
+| 10       | LG K52            | LG               | 989.90  | 745896565652 |
++----------+-------------------+------------------+---------+--------------+
 ```
 
 <h3>
@@ -2524,17 +2524,17 @@ FROM/*DENTRO DE*/
 </h3>
 
 ```sql
-+-----------+--------------------------+-----------------+---------+
-| ID_VENDAS | CLIENTE                  | PRODUTO         | PRECO   |
-+-----------+--------------------------+-----------------+---------+
-| 7         | JULIA BONITA             | POCCO X3 PRO    | 1400.00 |
-| 9         | LARISSA PAULA GUEDES     | HUAWEI X8 SILVER| 1330.12 |
-| 11        | PRISCILA DA COSTA NUNES  | POCCO X3 PRO    | 1400.00 |
-| 12        | PRISCILA DA COSTA NUNES  | POCCO X4 PRO    | 1600.00 |
-| 13        | PRISCILA DA COSTA NUNES  | S22 ULTRA       | 602.99  |
-| 10        | PRISCILA DA COSTA NUNES  | LG K61          | 1249.00 |
-| 8         | ROSA SANTOS SOARES       | UP PLAY         | 94.00   |
-+-----------+--------------------------+-----------------+---------+
++-----------+--------------------------+------------------+---------+
+| ID_VENDAS | CLIENTE                  | PRODUTO          | PRECO   |
++-----------+--------------------------+------------------+---------+
+| 7         | JULIA BONITA             | POCCO X3 PRO     | 1400.00 |
+| 9         | LARISSA PAULA GUEDES     | HUAWEI X8 SILVER | 1330.12 |
+| 11        | PRISCILA DA COSTA NUNES  | POCCO X3 PRO     | 1400.00 |
+| 12        | PRISCILA DA COSTA NUNES  | POCCO X4 PRO     | 1600.00 |
+| 13        | PRISCILA DA COSTA NUNES  | S22 ULTRA        | 602.99  |
+| 10        | PRISCILA DA COSTA NUNES  | LG K61           | 1249.00 |
+| 8         | ROSA SANTOS SOARES       | UP PLAY          | 94.00   |
++-----------+--------------------------+------------------+---------+
 ```
 
 <h3>
