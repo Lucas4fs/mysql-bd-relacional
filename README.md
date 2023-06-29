@@ -2603,6 +2603,14 @@ FROM/*DENTRO DE*/
 </p>
 
 <h3>
+	⛏️Segue o Link para Download do Arquivo .csv que Foi Gerado
+</h3>
+
+<p>
+	https://drive.google.com/file/d/1-J55bnvSSpE41LrcpXlfevrqA-t9NJj5/view?usp=share_link
+</p>
+
+<h3>
    ⛏️Criando VIEW(VISUALIZAÇÃO) CLIENTES_QUE_COMPRARAM_PROD_PRECO_ACIMA_MD que Mostra os que Mostra os Clientes que Compraram Produtos com Preço Acima da Média
 </h3>
 
